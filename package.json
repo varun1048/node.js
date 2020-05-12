@@ -1,0 +1,17 @@
+{
+  "name": "server_test",
+  "version": "1.0.0",
+  "description": "test in online by using node server socket.i0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "socket.io": "^2.3.0"
+  }
+}
