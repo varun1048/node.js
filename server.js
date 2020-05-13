@@ -19,10 +19,14 @@ var topper =[]
 function output(){
     topper.sort((x,y)=>y.time - x.time)
     topper.sort((x,y)=>y.mark - x.mark)
-
+    
     console.log(topper)
 }
+
 io.on('connection',(socket)=>{
+    socket.on('disconnect',()=>{
+        --Numberofconnection
+    })
     console.log("number of connction: "+ ++Numberofconnection)
     socket.on('info',(data)=>{
         topper.push(data)
