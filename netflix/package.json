@@ -1,0 +1,15 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "varun",
+  "license": "ISC",
+  "dependencies": {
+    "jssoup": "0.0.12",
+    "request": "^2.88.2"
+  }
+}
